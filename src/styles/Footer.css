@@ -1,0 +1,52 @@
+.footer-side{
+    background-color: black;
+    
+ 
+}
+.footer-side img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 1rem;
+    margin-bottom: 80px;
+}
+.footer-side p{
+    margin-left: 23px;
+    margin-bottom: 50px;
+}
+.datas-goods{
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    grid-template-columns: auto minmax(30px,2fr);
+    
+}
+.footer-left li{
+    list-style: none;
+    margin-left: 300px;
+    padding: 10px;
+
+}
+.footer-left ul li{
+    grid-template-columns: 34px;
+}
+.street-path ul {
+    margin-left: 300px;
+    margin-bottom: 100px;
+   margin-top: -10rem;
+
+}
+/* .icons-used{
+    margin-left: 600px;
+    margin-top: -4rem;
+    margin-bottom: 34px;
+    justify-content: space-between;
+}  */
+.icons-used {
+    display: flex;
+    gap: 15px; /* Adjust spacing between icons */
+    margin-left: 650px;
+
+    margin-top: -3rem;
+     /* Add some margin if needed */
+}

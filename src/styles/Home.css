@@ -1,0 +1,221 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/home.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    top: 0;
+    left: 0;
+  }
+  
+  .content {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .explore-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .explore-btn:hover {
+    background: darkred;
+  }
+  .buy-rent-container {
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .option {
+    position: relative;
+    width: 40%;
+    height: 290px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .option:hover {
+    transform: scale(1.05);
+  }
+  
+  .buy {
+    background-image: url("../assets/SALE.jpeg"); /* Replace with actual image */
+  }
+  
+  .rent {
+    background-image: url("../assets/VP.jpeg"); /* Replace with actual image */
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .buy .overlay {
+    background: rgba(0, 15, 40, 0.7); /* Dark blue overlay */
+  }
+  
+  .rent .overlay {
+    background: rgba(255, 0, 0, 0.5); /* Red overlay */
+  }
+  
+  h2 {
+    position: relative;
+    z-index: 1;
+  }
+  .property-list-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .property-section-title {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: gray;
+  }
+  
+  .property-main-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .property-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .property-card {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .property-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .property-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .property-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  
+  .property-info {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .property-address {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .property-location {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .property-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .property-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detail-label {
+    color: gray;
+    font-size: 12px;
+  }
+  
+  .detail-value {
+    font-weight: bold;
+  }
+  
