@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/logo_rent-removebg-preview.png';
+import logo from '../assets/lg.png';
 import '../styles/Footer.css'
 import { FaFacebook } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";

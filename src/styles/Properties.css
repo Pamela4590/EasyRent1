@@ -1,0 +1,88 @@
+/* Main container */
+.details-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .details-title {
+    font-size: 24px;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .details-subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .detail-list {
+    display: grid;
+    justify-content: center;
+    
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  /* Property Card */
+  .detail-card {
+    background: #fff;
+    
+    width: 400px;
+    height: -800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .detail-details {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .detail-address {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .detail-location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .detail-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Tag Styling */
+  .tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  .tag.buy {
+    background: red;
+  }
+  
+  .tag.rent {
+    background: red;
+  }
+  

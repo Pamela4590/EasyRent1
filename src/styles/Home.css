@@ -138,19 +138,24 @@
   }
   
   .property-grid {
-    display: flex;
+    display: grid;
+    margin-left: 100px;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
   }
   
   .property-card {
     width: 300px;
+    margin-left: 55px;
+    margin-top: 20px;
     background: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    grid-template-columns: repeat(3,1fr);
   }
   
   .property-card:hover {
