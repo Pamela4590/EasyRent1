@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../assets/lg.png';
 import '../styles/Footer.css'
+import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -17,11 +18,10 @@ function Footer(){
             </div>
             <div className="footer-left">
                 <ul> 
-                <li>Home</li>
-                <li>Properties</li> 
-                <li>About</li>
-                <li>Team</li>
-                <li>Contact</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Properties">Properties</a></li> 
+                <li><a href="/About">About</a></li>
+                <li><a href="/Contact">Contact</a></li>
                 </ul>
                 <div className="street-path">
                  <ul>
