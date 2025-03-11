@@ -1,8 +1,14 @@
 import React from "react";
 import "../styles/Navbar.css";
 import logo from "../assets/lg.png"
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
+import Login from "../Components/Login"
+
 function Navbar() {
+    const handleLogin =() =>{
+        navigate('/Login');
+    }
+    const navigate =useNavigate();
     return (
         <>
             <div className="navbar">
@@ -20,7 +26,7 @@ function Navbar() {
                             
                         </ul>
                     </div>
-                <div><button className="button-log">LOGIN</button></div>
+                <div><button onClick={handleLogin} className="button-log">LOGIN</button></div>
             </div>
 
         </>
