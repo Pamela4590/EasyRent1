@@ -3,11 +3,11 @@ import "./Dashboardstyles/DashboardNavbar.css";
 
 const DashboardNavbar = () => {
   return (
-    <nav className="navba">
-      <h1 className="navba-title">Easy Rent Dashboard</h1>
-      <ul className="navba-menu">
-        <li className="navba-item">Profile</li>
-        <li className="navba-item">Logout</li>
+    <nav className="navb">
+      <h1 className="navb-title">Easy Rent Dashboard</h1>
+      <ul className="navb-menu">
+        <li className="navb-item">Profile</li>
+        <li className="navb-item">Logout</li>
       </ul>
     </nav>
   );

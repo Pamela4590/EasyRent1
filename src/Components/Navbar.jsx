@@ -1,36 +1,37 @@
 import React from "react";
 import "../styles/Navbar.css";
-import logo from "../assets/lg.png"
-import { Link,useNavigate } from "react-router-dom";
-import Login from "../Components/Login"
+import logo from "../assets/lg.png";
+import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
-    const handleLogin =() =>{
-        navigate('/Login');
-    }
-    const navigate =useNavigate();
+    const navigate = useNavigate(); // Move this above handleLogin
+
+    const handleLogin = () => {
+        navigate('/signup'); // This will now work correctly
+    };
+
     return (
         <>
             <div className="navbar">
-             
-                    <div className="navbar-left">
-                       <img src={logo} alt="logo" className="logo-nav" />
-                    </div>
-                  
-                    <div className="details-navbar">
+                <div className="navbar-left">
+                    <img src={logo} alt="logo" className="logo-nav" />
+                </div>
+
+                <div className="details-navbar">
                     <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/Properties">Properties</Link></li>
-                            <li><Link to="/About">About</Link></li>
-                            <li><Link to="/Contact">Contact</Link></li>
-                            
-                        </ul>
-                    </div>
-                <div><button onClick={handleLogin} className="button-log">LOGIN</button></div>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/Properties">Properties</Link></li>
+                        <li><Link to="/About">About</Link></li>
+                        <li><Link to="/Contact">Contact</Link></li>
+                    </ul>
+                </div>
+
+                <div>
+                <Link to="/login"><button className="button-log">LOGIN</button></Link>
+                </div>
             </div>
-
         </>
-    )
-
+    );
 }
-export default Navbar
+
+export default Navbar;

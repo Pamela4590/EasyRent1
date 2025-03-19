@@ -1,31 +1,20 @@
 
-/* Page Background */
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #0b1a33; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-} */
-
-/* Main container for both forms */
-/* Container Styling */
 .auth-container {
     display: flex;
     justify-content: center;
-    gap: 80px; /* Adjusted spacing */
+    gap: 80px; 
     width: 100%;
     align-items: center;
     max-width: 1000px;
+    margin-left: center;
     margin: auto;
+    
     padding: 40px 0;
 }
 
-/* Box Styling */
+
 .auth-box {
-    background: #091D35; /* Dark Blue */
+    background: #091D35; 
     padding: 30px;
     border-radius: 16px;
     width: 380px;
@@ -34,20 +23,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Titles */
+
 .auth-box h2 {
     color: whitesmoke;
     margin-bottom: 20px;
     font-size: 24px;
 }
 
-/* Input Fields */
+
 .auth-box input {
     width: 80%;
     padding: 14px;
+    
     margin: 10px 0;
     border: 2px solid wheat;
     border-radius: 6px;
@@ -58,7 +52,7 @@
     text-align: left;
 }
 
-/* Buttons */
+
 .auth-box button {
     background-color: wheat;
     color: #091D35;
@@ -76,7 +70,7 @@
     background-color: white;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .auth-container {
         flex-direction: column;

@@ -9,6 +9,9 @@ import DashboardLayouts from './Dashboard/DashboardLayouts.jsx'
 import DashboardView from './Dashboard/DashboardView.jsx'
 import Login from './Components/Login.jsx'
 import Register from './Components/Register.jsx'
+import DashboardHouse from './Dashboard/DashboardHouse.jsx'
+import DashboardCustomersTable from './Dashboard/DashboardCustomerTable.jsx'
+
 
 function App() {
   
@@ -24,15 +27,21 @@ function App() {
       <Route path='/Properties' element={<Properties />} />
       <Route path='/About' element={<About />} />
       <Route path='/Contact' element={<Contact />} />
-      
+      {/* <Route path='/Login' element={<Login />} />
+      <Route path='/signup' element={<Register/>}/> */}
       </Route>
-
       <Route path='/Login' element={<Login />} />
       <Route path='/signup' element={<Register/>}/>
+      
       <Route path='/' element={<DashboardLayouts/>} >
-    <Route path= "/Dashboard" index element={<DashboardView/>} />
+      <Route path= "/Dashboard" index element={<DashboardView/>} />
+      <Route path= "/Customers" index element={<DashboardCustomersTable/>} />
+      
+      <Route path= "/houses" index element={<DashboardHouse/>} />
+  
     {/* <Route path= "/DashboardOrders" element={<Dashboard/>} /> */}
     {/* <Route path= "/DashboardCustomersTable" element={<DashboardCustomersTable/>} /> */}
+
 
     </Route>
     

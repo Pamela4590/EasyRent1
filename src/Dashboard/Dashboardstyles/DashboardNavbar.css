@@ -1,6 +1,6 @@
-.navba {
-    width: 80%;
-    margin-left: 2rem;
+.navb {
+    width: 82%;
+    margin-left: -2rem;
     height: 60px;
     background-color: #2f3f4f;
     color: white;
@@ -10,16 +10,17 @@
     padding: 0 20px;
     position: fixed;
     top: 0;
-    left: 250px;
+    left: -rem;
     right: 0;
+    margin-left:-rem;
   }
   
-  .navba-title {
+  .navb-title {
     font-size: 20px;
     font-weight: bold;
   }
   
-  .navba-menu {
+  .navb-menu {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -27,12 +28,13 @@
     padding-left: -20rem;
   }
   
-  .navbar-item {
+  .navb-item {
     cursor: pointer;
     transition: color 0.3s;
+    
   }
   
-  .navba-item:hover {
+  .navb-item:hover {
     color: #f39c12;
   }
   
