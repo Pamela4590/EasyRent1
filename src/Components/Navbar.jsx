@@ -4,10 +4,10 @@ import logo from "../assets/lg.png";
 import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
-    const navigate = useNavigate(); // Move this above handleLogin
+    const navigate = useNavigate(); 
 
     const handleLogin = () => {
-        navigate('/signup'); // This will now work correctly
+        navigate('/signup'); 
     };
 
     return (

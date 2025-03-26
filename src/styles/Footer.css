@@ -36,17 +36,12 @@
    margin-top: -10rem;
 
 }
-/* .icons-used{
-    margin-left: 600px;
-    margin-top: -4rem;
-    margin-bottom: 34px;
-    justify-content: space-between;
-}  */
+
 .icons-used {
     display: flex;
-    gap: 15px; /* Adjust spacing between icons */
+    gap: 15px; 
     margin-left: 650px;
 
     margin-top: -3rem;
-     /* Add some margin if needed */
+     
 }

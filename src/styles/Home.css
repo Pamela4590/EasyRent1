@@ -12,7 +12,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.5); 
     top: 0;
     left: 0;
   }
@@ -73,7 +73,7 @@
   .option {
     position: relative;
     width: 40%;
-    height: 290px; /* Adjust height as needed */
+    height: 290px; 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -91,11 +91,11 @@
   }
   
   .buy {
-    background-image: url("../assets/SALE.jpeg"); /* Replace with actual image */
+    background-image: url("../assets/SALE.jpeg"); 
   }
   
   .rent {
-    background-image: url("../assets/VP.jpeg"); /* Replace with actual image */
+    background-image: url("../assets/VP.jpeg"); 
   }
   
   
@@ -108,11 +108,11 @@
   }
   
   .buy .overlay {
-    background: rgba(0, 15, 40, 0.7); /* Dark blue overlay */
+    background: rgba(0, 15, 40, 0.7);  
   }
   
   .rent .overlay {
-    background: rgba(255, 0, 0, 0.5); /* Red overlay */
+    background: rgba(255, 0, 0, 0.5); 
   }
   
   h2 {

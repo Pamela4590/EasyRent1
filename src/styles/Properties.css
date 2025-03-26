@@ -1,4 +1,4 @@
-/* Main container */
+
 .details-container {
     text-align: center;
     padding: 40px;
@@ -24,7 +24,7 @@
     grid-template-columns: repeat(3,1fr);
   }
   
-  /* Property Card */
+
   .detail-card {
     background: #fff;
     
