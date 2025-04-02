@@ -14,7 +14,7 @@ function Footer(){
             <div className="datas-goods">
             <div className="footer-side">
                <img src={logo} alt="" />
-               <p>2035 by ApartmentRental.Powered and secured by R&G</p>
+               <p>2050 by ApartmentRental.Powered and secured by R&G</p>
             </div>
             <div className="footer-left">
                 <ul> 
@@ -22,6 +22,7 @@ function Footer(){
                 <li><a href="/Properties">Properties</a></li> 
                 <li><a href="/About">About</a></li>
                 <li><a href="/Contact">Contact</a></li>
+                <li><a href="/Payment">Payment</a></li>
                 </ul>
                 <div className="street-path">
                  <ul>

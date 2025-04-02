@@ -65,19 +65,19 @@ function Login() {
     } catch (error) {
       console.error('Login error:', error);
       
-      // Detailed error handling
+      
       if (error.response) {
-        // The request was made and the server responded with a status code
-        // that falls out of the range of 2xx
+        
+    
         const errorMsg = error.response.data.message || 'Login failed';
         setErrorMessage(errorMsg);
         Notify.failure(errorMsg);
       } else if (error.request) {
-        // The request was made but no response was received
+        
         setErrorMessage('No response from server. Please check your network connection.');
         Notify.failure('Network error');
       } else {
-        // Something happened in setting up the request that triggered an Error
+        
         setErrorMessage('An unexpected error occurred');
         Notify.failure('Unexpected error');
       }

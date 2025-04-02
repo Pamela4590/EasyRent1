@@ -23,6 +23,7 @@ function Navbar() {
                         <li><Link to="/Properties">Properties</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
+                        <li><Link to="/Payment">Payment</Link></li>
                     </ul>
                 </div>
 
