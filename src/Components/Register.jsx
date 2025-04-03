@@ -7,7 +7,7 @@ import { useNavigate, Link } from 'react-router-dom';
 
 // Create a custom Axios instance
 const api = axios.create({
-  baseURL: 'https://easyrentbackend-7.onrender.com',
+  baseURL: 'https://easyrentbackend-8.onrender.com',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'

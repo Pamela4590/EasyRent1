@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 // Create a custom Axios instance with base configuration
 const api = axios.create({
-  baseURL: 'https://easyrentbackend-7.onrender.com', // Your backend server URL
+  baseURL: 'https://easyrentbackend-8.onrender.com', // Your backend server URL
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ function Login() {
     try {
       console.log("Attempting login with:", data.userEmail);
       
-      const response = await api.post('https://easyrentbackend-7.onrender.com/login', {
+      const response = await api.post('/login', {
         userEmail: data.userEmail,
         userPassword: data.userPassword
       });

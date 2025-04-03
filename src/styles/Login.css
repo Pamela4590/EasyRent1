@@ -41,7 +41,6 @@
 .auth-box input {
     width: 80%;
     padding: 14px;
-    
     margin: 10px 0;
     border: 2px solid wheat;
     border-radius: 6px;
@@ -51,18 +50,16 @@
     outline: none;
     text-align: left;
 }
-
-
 .auth-box button {
     background-color: wheat;
+    margin: 10px 0;
     color: #091D35;
     padding: 14px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
-    transition: 0.3s;
+    width: 88%;
     font-weight: bold;
 }
 
@@ -82,3 +79,6 @@
         padding: 40px;
     }
 }
+
+
+
